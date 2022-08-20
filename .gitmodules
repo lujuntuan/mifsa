@@ -1,0 +1,6 @@
+[submodule "mifsa-base"]
+	path = mifsa-base
+	url = https://github.com/lujuntuan/mifsa-base.git
+[submodule "mifsa-gnss"]
+	path = mifsa-gnss
+	url = https://github.com/lujuntuan/mifsa-gnss.git
