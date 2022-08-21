@@ -4,3 +4,6 @@
 [submodule "mifsa-gnss"]
 	path = mifsa-gnss
 	url = https://github.com/lujuntuan/mifsa-gnss.git
+[submodule "mifsa-ota"]
+	path = mifsa-ota
+	url = https://github.com/lujuntuan/mifsa-ota.git

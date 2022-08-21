@@ -18,4 +18,5 @@ set(MIFSA_MODULE_PROJECT ON)
 include(mifsa-base/cmake/base.cmake)
 
 add_subdirectory(mifsa-base)
+add_subdirectory(mifsa-ota)
 add_subdirectory(mifsa-gnss)
