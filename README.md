@@ -2,7 +2,21 @@
 
 The middleware framework of in-vehicle soa, based on C++.
 
-Note: This is a top project, you can enter the subproject to build separately, [mifsa-base](https://github.com/lujuntuan/mifsa-base) in here.
+Note: This is a top project, you can enter the subproject to build separately.
+
+The source code is here:
+
+ [mifsa-base](https://github.com/lujuntuan/mifsa-base)
+
+ [mifsa-gnss](https://github.com/lujuntuan/mifsa-gnss)
+
+The yocto-layer is here:
+
+ [meta-mifsa](https://github.com/lujuntuan/meta-mifsa)
+
+The yocto-build-project is here:
+
+ [mifsa-yocto-build](https://github.com/lujuntuan/mifsa-yocto-build)
 
 ## So what is this about?
 
