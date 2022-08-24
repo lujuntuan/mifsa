@@ -22,7 +22,7 @@ The yocto-build-project is here:
 
 ## So what is this about?
 
-Documentation is found in [docs](introduction-zh.xlsx)(中文).
+Documentation is found in [introduction](https://github.com/lujuntuan/mifsa/doc/introduction-zh.md)(中文).
 
 ## Features:
 
