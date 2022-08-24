@@ -89,7 +89,7 @@ cmake -B build \
 	-DMIFSA_BUILD_EXAMPLES=ON \
 	-DMIFSA_BUILD_TESTS=OFF \
 	-DMIFSA_IDL_TYPE=fdbus
-cmake --build build --target install
+cmake --build build --target install -j8
 ```
 
 ```shell
