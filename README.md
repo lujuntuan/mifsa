@@ -10,6 +10,8 @@ The source code is here:
 
  [mifsa-gnss](https://github.com/lujuntuan/mifsa-gnss)
 
+ [mifsa-ota](https://github.com/lujuntuan/mifsa-ota)
+
 The yocto-layer is here:
 
  [meta-mifsa](https://github.com/lujuntuan/meta-mifsa)
@@ -123,9 +125,9 @@ Examples:
 ```shell
 ./copyproject.sh
 mifsa_gnss
-mifsa_modem
+mifsa_media
 gnss
-modem
+media
 ```
 
 Then，modify other content to complete the adaptation of the module.
