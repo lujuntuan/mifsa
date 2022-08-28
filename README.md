@@ -2,7 +2,7 @@
 
 The middleware framework of in-vehicle soa, based on C++.
 
-Note: This is a top project, you can enter the subproject to build separately.
+Note: This is a top-layer project, you can enter the subproject to build separately.
 
 The source code is here:
 
@@ -27,13 +27,12 @@ Documentation is found in [introduction](doc/introduction-zh.md)(中文).
 ## Features:
 
 - Implementation based on Modern c++ （c++14）.
-- Support `dds` `someip` `fdbus` .
-- Layered architecture design to support non-intrusive development.
+- Soa-based architecture design, support `dds` `someip` `fdbus` .
+- Hierarchical design, low in coupling, support non-intrusive development
 - Modern cmake project management, standard export of support libraries.
 - Platform abstraction and plug-in, with good portability.
-- Cross-platform support (`windows` `linux` `qnx` `android`).
+- Cross-platform support
 - Fewer dependencies on 3rd party libraries (only `hpp`).
-- Facilitate the integration and development of other modules.
 - Support Fuzz-test (TODO).
 
 ## Requirements:
@@ -62,6 +61,8 @@ One of the following rpc communication libraries is required:
 
 - [rclcpp(ros2)](https://github.com/ros2/rclcpp)
 
+Note: Support custom rpc
+
 ## How to build:
 
 ```cmake
@@ -81,7 +82,7 @@ Optional:
 
 - -DMIFSA_IDL_TYPE: 
 
-  Select the soa communication component (idl), support auto/ros/vsomeip/fdbus, default is auto.
+  Select the rpc communication component (idl), support auto/ros/vsomeip/fdbus/custom, default is auto.
 
 Examples:
 
