@@ -22,7 +22,7 @@ The yocto-build-project is here:
 
 ## So what is this about?
 
-Documentation is found in [introduction](doc/introduction-zh.md)(中文).
+Detailed documentation is found in [introduction](doc/introduction-zh.md)(中文).
 
 ## Features:
 
@@ -61,7 +61,7 @@ One of the following rpc communication libraries is required:
 
 - [rclcpp(ros2)](https://github.com/ros2/rclcpp)
 
-Note: Support custom rpc
+Note: Also supports custom rpc.
 
 ## How to build:
 
