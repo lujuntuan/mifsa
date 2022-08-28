@@ -2,9 +2,9 @@
 
 The middleware framework of in-vehicle soa, based on C++.
 
-Note: This is a top-layer project, you can enter the subproject to build separately.
+Note: This is a top-layer project, you can enter the subprojects to build separately.
 
-The source code is here:
+The subprojects is here:
 
  [mifsa-base](https://github.com/lujuntuan/mifsa-base)
 
